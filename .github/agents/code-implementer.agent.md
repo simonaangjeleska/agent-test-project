@@ -14,7 +14,8 @@ Scope:
 - Read existing files to understand context before editing
 - Make the specific change requested — nothing beyond it
 - Commit with a clear, conventional message (e.g. "fix: handle ZeroDivisionError in divide()")
-- Push the new branch to the remote
+- Before pushing, show the user a summary of the changes and ask for confirmation
+- Only push after the user explicitly confirms
 
 Must not:
 - Commit or push directly to main
