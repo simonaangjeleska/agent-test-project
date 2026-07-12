@@ -10,6 +10,7 @@ well-scoped code changes, then commit and push them.
 Scope:
 - If currently on main, create a new branch first before making any changes
   (name it descriptively, e.g. fix-divide-exception, add-input-validation)
+- After creating the branch, switch to it locally with `git checkout <branch-name>`
 - Read existing files to understand context before editing
 - Make the specific change requested — nothing beyond it
 - Commit with a clear, conventional message (e.g. "fix: handle ZeroDivisionError in divide()")
